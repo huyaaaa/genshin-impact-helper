@@ -121,7 +121,7 @@ class Notify(object):
         if 'SCKEY' in os.environ:
             SCKEY = os.environ['SCKEY']
 
-        url = f'https://sc.ftqq.com/{SCKEY}.send'
+        url = f'https://sctapi.ftqq.com/{SCKEY}.send'
         data = {
             'text': f'{text} {status}',
             'desp': desp
